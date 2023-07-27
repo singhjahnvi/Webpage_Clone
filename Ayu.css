@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+nav{
+    background-color:rgb(255, 51, 51);
+    width: 100%;
+}
+
+ul{
+    display: flex; 
+    flex-direction:row; /* to align elements in a row */
+    justify-content: space-between; /* to give space between elements */
+    align-items: center; /* to align elemets of ul in center */
+}
+
+li{
+    font-size: 1.5vw;
+    list-style: none; /* to remove the pointers from elements of the list */
+    margin-right: 100px; /* to give margin on the right */
+}
+
+li a{
+    font-family: "Baloo Bhai 2", cursive;
+    text-decoration: none; /* Decorations applied to font used for an element's text */
+    color: white; /* Decorations applied to font used for an element's text */
+}
+
+li a:hover{
+    font-size: 2.5vw; /* when hovering the cursor over the text, the text will show changes according to the properties given */
+    font-weight: 700; /*Specifies weight of glyphs in the font, their degree of blackness or stroke thickness */
+}
+
+ul #logo{
+    width:100px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+
+
+
+.head{
+    padding: 15px 0px 0px 30px;
+    font-family: "Montserrat" , sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+
+
+
+.about{
+    background-color: rgb(0, 68, 255);
+    color: white;
+    width: fit-content;
+}
+
+.about #para{
+    padding: 40px 40px 40px 80px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5vw;
+    font-weight: 600;
+    width: fit-content;
+    text-align: justify;
+}
+
+
+
+
+.prod{
+    background-color: rgb(101, 229, 33);
+    width: 100%;
+}
+.prod #prodtable td{
+    padding-left: 8vw;
+}
+
+.prod #prodtable iframe{
+    width:fit-content;
+    height:fit-content;
+}
+
+.prod .img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+.serv{
+    background-color: gray;
+    width: 100%;
+}
+
+.serv table{
+    background-color: gray;
+    text-align: center;
+}
+
+.serv .img{
+    width: 500px;
+    height: 300px;
+}
+
+#Servtable td{
+    padding: 40px 50px 40px 50px;
+}
+
+.serv .cap{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+#Servtable a:link{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+#contact{
+    padding-top: 10px;
+    background-color: aqua ;
+}
+
+.contact .img{
+    width: 50px;
+}
+
+.contact table{
+    text-align: justify;
+}
+
+#contable p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+}
